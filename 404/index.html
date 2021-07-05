@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zublevska - Task 6</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="notifications.css" type="text/css">
+    <link rel="stylesheet" href="dropdown.css" type="text/css">
+  </head>
+  <body>
+      <header>
+         <img class="logo" src="./assets/images/logo.jpg" alt="sitelogo">
+         <div id="menu" class="site-menu">
+          <ul>
+            <li>
+              <img class="menu-icon" src="./assets/images/bell.jpg" alt="icon">
+            </li> 
+            <li>
+              <input id="check01" type="checkbox" name="menucheck">
+               <label for="check01">I</label>
+                <ul class="submenu">
+                 <h3 id="dropdown-title">Iron Man</h3>
+                 <hr>
+                 <li><a href="#">Profile</a></li>
+                 <li><a href="#">Log Out</a></li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+      </header>    
+    <content>
+      <img class="content-img" src="./assets/images/404.jpg" alt="contentimg">
+      <h1 id="message1">Not Found</h1>
+      <h3 id="message2">The page you were looking for doesn't exist</h3>
+    </content>
+    <div class="notification-wrp">
+      <div class="notification-msg-wrp">
+        <div class="first-notification">
+          <img class="notification-icon" src="./assets/images/mark2.jpg" alt="msg-icon">
+          <div class="notification-name">Error</div>
+          <div class="notification-message">Something went wrong. Please try again later.</div>
+        </div>
+        <div class="second-notification">
+          <img class="notification-icon" src="./assets/images/mark1.jpg" alt="msg-icon">
+          <div class="notification-name">Success</div>
+          <div class="notification-message">Profile was updated.</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

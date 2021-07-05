@@ -1,0 +1,51 @@
+.notification-wrp {
+    position: absolute; 
+    }
+
+.notification-msg-wrp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: block;
+}
+
+.first-notification {
+    width: 250px;
+    height: 100px;
+    background-color: rgb(247, 10, 10);
+    opacity: 3;
+    padding: 15px;
+    display: block;
+}
+
+.second-notification {
+    width: 250px;
+    height: 80px;
+    background-color: rgb(55, 207, 24);
+    opacity: 3;
+    padding: 15px;
+    display: block;
+}
+
+.notification-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    float: left;
+}
+
+.notification-name {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 60px;
+}
+
+.notification-message {
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 60px;
+}
